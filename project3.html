@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Sign Up Form</h1>
+    <form>
+      <!-- personal details -->
+      <input text="" placeholder="FirstName" required /><br /><br />
+      <input text="" placeholder="LastName" required /><br /><br />
+      <input Email="" placeholder="Email" required /><br /><br />
+      <input
+        type="password"
+        id="Password"
+        placeholder="Password"
+        required
+      /><br /><br />
+      <!-- <input password="" placeholder="password" required /><br /><br /> -->
+
+      <!-- select gender -->
+      <p>Select Gender:</p>
+      <label for="male">male</label>
+      <input type="radio" name="gender" id="male" /><br />
+      <label for="female">female</label>
+      <input type="radio" name="gender" id="female" /><br />
+      <label for="others">others</label>
+      <input type="radio" name="gender" id="other" /><br />
+
+      <!-- select country -->
+
+      <label for="country">country:</label>
+      <select id="country">
+        <option value="India">India</option>
+        <option value="Bhutan">Bhutan</option>
+        <option value="Sri lanka">sri lanka</option>
+      </select>
+
+      <!-- comment -->
+      <p>Write about yourself below</p>
+      <textarea name=" " cols="30" rows="10" placeholder="type here"></textarea>
+
+      <!-- submit -->
+      <br />
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>

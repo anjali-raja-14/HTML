@@ -5,36 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>website</title>
-    <h1>
-        HTML FORM
-    </h1>
+   
+    <style>
+        .container{
+            background-color:black;
+            color: white;
+        }
+    </style>
 <body>
-    <form action="thankyou.html">
+    <span class="heading">    
+    <div class="container">
+        <h1>
+            HTML FORM
+        </h1>
+        <div class="response">
+            <form action="thankyou.html">
+        </div>
 
-        <!-- <label for="Username">Username:</label> -->
-        <!-- <input type="text" id="Username"placeholder="Username"required><br><br> -->
-
-         <label for="Username">Username:</label>
-         <input type="text" id="Username"placeholder="Username"required><br><br>
-
-        <label for="Email">email:</label>
-        <input type="Email" id="Email"placeholder="Email"required><br><br>
-
-        <label for="Password">password:</label>
-        <input type="password" id="Password"placeholder="Password"required><br><br>
-       
-        <p>Select Your Gender</p>
-        <label for="Male">male</label>
-        <input type="radio"name="gender"id="Male"value="male"><br><br>
-
-        <label for="Female">female</label>
-        <input type="radio"name="gender"id="female"value="Female"><br><br>
-
-        <label for="other">other</label>
-        <input type="radio"name="gender"id="other"value="other"><br><br>
-
-        <input type="submit" value="sign in">
-    </form>
+            <!-- <label for="Username">Username:</label> -->
+            <!-- <input type="text" id="Username"placeholder="Username"required><br><br> -->
+    
+             <label for="Username">Username:</label>
+             <input type="text" id="Username"placeholder="Username"required><br><br>
+    
+            <label for="Email">email:</label>
+            <input type="Email" id="Email"placeholder="Email" required><br><br>
+    
+            <label for="Password">password:</label>
+            <input type="password" id="Password"placeholder="Password"required><br><br>
+           
+            <p>Select Your Gender:</p>
+            <label for="Male">male</label>
+            <input type="radio"name="gender"id="Male"value="male"><br><br>
+    
+            <label for="Female">female</label>
+            <input type="radio"name="gender"id="female"value="Female"><br><br>
+    
+            <label for="other">other</label>
+            <input type="radio"name="gender"id="other"value="other"><br><br>
+    
+            <label for="Age Group">Select your Age Group:</label>
+            <select>name="Age Group" id="Age Group"
+                <option value ="20-30">20-30</option>
+                <option value ="31-40">31-40</option>
+                <option value ="41-45">41-45</option>
+            </select>
+            <br><br>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
-
 </html>
