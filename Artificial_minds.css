@@ -1,0 +1,94 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #27ae60;
+    --secondary-color: #219150;
+    --text-light: #ddd;
+    --navbar-height: 60px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/024/399/489/large_2x/natural-spa-background-illustration-ai-generative-free-photo.jpg);
+    background-size: cover;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#navbar ul a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.container {
+    max-width: 850px;
+    margin: 100px auto 50px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+p {
+    color: var(--text-light);
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.05);
+}
