@@ -54,7 +54,7 @@ html{
     top: 0px;
     height: 60px;
     width: 1250px;
-    background-color: black;
+    background-color: rgb(41, 89, 81);
     font-size: 10px;
     display: flex;
     justify-content: center;
@@ -79,7 +79,7 @@ html{
 
 
 a:hover {
-   color:#016d12;
+   color:yellow;
 }
 
 
@@ -252,22 +252,8 @@ a {
     color:#FEF9CD;
 }
 
-.box5 {
-    font-size: 15px;
-    height: 40px;
-    width: 150px;
-    font-weight: bolder;
-    background-color:#1081c4;
-    font-family: sans-serif;
-    border-radius: 20px;
-    align-content: center;
-    padding-left: 30px;
-    margin-top: 20px;
-}
-.box_line {
-    width: 600px;
-    border-top: 1px solid white;
-}
+
+
 .box6 {
     height: 320px;
     width: 475px;
@@ -281,13 +267,14 @@ a {
 .container3 {
 
     height: 700px;
-    width: 1250px;
+    width:1250px;
     background-color: black;
     border-top: 20px solid#1082c5;
     color: white;
     font-family: sans-serif;
 
 }
+
 
 .img_animate {
     height: 600px;
@@ -297,65 +284,13 @@ a {
     left: 120px;
     background-image: url(https://remedyhealthhomecare.com/wp-content/uploads/2020/09/Remedy-Health-01-1536x1019.png);
     background-size: cover;
+    
 }
 .body{
     font-family: sans-serif;
 }
-.animate_box {
-    height: 600px;
-    width: 600px;
-    border-radius: 4px;
-    position: absolute;
-    left: 700px;
-    top: 1460px;
-    color: wheat;
-    font-family: sans-serif;
-}
-.animate_box_a {
-    color:#016d12;
-    font-size: 70px;
-    text-align: center;
-    padding-top: 1px;
-    font-weight: 700;
-    text-transform:uppercase;
-}
-.animate_box_c {
-    text-align: start;
-    font-family:  sans-serif;
-    position: relative;
-    top: 50px;
-    font-size: 25px;
-    color: #FEF9CD;
-    position: absolute;
-    left: 100px;
-    top: 100px;
-    font-family: sans-serif;
-    line-height: 50px;
-}
 
-.animate_box_d {
-    color: rgb(225, 215, 198);
-    font-size: 12px;
-    text-align: start;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute;
-    top: 350px;
-    padding-left: 25px;
-    line-height: 25px;
-
-}
-
-.animate_box_d1 {
-
-    height: 250px;
-    width: 100px;
-    position: relative;
-    border-left: 5px solid#1082c5;
-    position: relative;
-    top: 90px;
-    left: 0px;
-}
-
+    
 
 #container4 {
 
@@ -559,106 +494,6 @@ a {
 
 }
 
-.container9 {
-    height: 800px;
-    width: 1250px;
-
-    background-image: url(https://lushdollar.com/wp-content/uploads/2018/12/free-laptop.jpg);
-    background-size: cover;
-    font-family: sans-serif;
-}
-
-.container9_a {
-    color:#1081c4;
-    ;
-    text-transform: uppercase;
-    font-size: 70px;
-    text-align: center;
-    padding-top: 70px;
-    font-weight: 800;
-
-}
-
-.container9_b {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 400;
-    position: relative;
-    left: 580px;
-    top: 30px;
-    font-weight: 500;
-    color: aliceblue;
-
-}
-
-.container9_c {
-    height: 100px;
-    width: 700px;
-    font-size: 20px;
-    font-weight: 500;
-    position: relative;
-    left: 350px;
-    top: 60px;
-    font-weight: 500;
-    line-height: 30px;
-    color: rgb(232, 213, 182);
-    align-self: center;
-
-}
-
-.container9_d {
-    position: relative;
-
-    input {
-        display: block;
-        padding-right: 100px;
-        padding-left: 100px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        background-color: white;
-        position: relative;
-        left: 400px;
-        top: 40px;
-        border-radius: 10px;
-        border: 8px solid #5fb6cb;
-    }
-
-    ;
-
-    input:hover {
-        background-color:#1081c4;
-
-        color: aliceblue;
-    }
-
-    ;
-}
-.container9_e {
-    height: 40px;
-    width: 300px;
-    display: inline-block;
-}
-
-button {
-   
-    background: linear-gradient(45deg, #006c11, #1081c4);
-    border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    top:-100px;
-
-}
-
-button:hover {
-    background-color: #008ed5;
-}
 
 
 #container10 {
@@ -670,80 +505,6 @@ button:hover {
     font-family: sans-serif;
 }
 
-.container10_a {
-    color:#1081c4;
-    ;
-    text-transform: uppercase;
-    font-size: 60px;
-    text-align: center;
-    padding-top: 70px;
-    font-weight: bolder;
-}
-
-.container10_b {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 400;
-    position: relative;
-    left: 350px;
-    top: 20px;
-}
-
-.line {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-
-    #line1 {
-        height: 100px;
-        width: 400px;
-        border-top: 1px solid white;
-        position: relative;
-        display: flex;
-        top: 50px;
-    }
-    i{
-        position: relative;
-        top:30px;
-    }
-}
-
-.container10_box {
-    height: 800px;
-    width: 1100px;
-    justify-content: space-evenly;
-    position: absolute;
-    left: 80px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.container10_box_1 {
-    height: 350px;
-    width: 300px;
-}
-
-.container10_box_1_a {
-    font-size: 18px;
-    font-family: sans-serif;
-    font-weight: 700;
-    padding-top: 20px;
-}
-
-.container10_box_1_a:hover {
-    color:#1081c4;
-}
-
-.container10_box_1_b {
-    font-size: 15px;
-    font-family: sans-serif;
-    font-weight: 500;
-    padding-top: 20px;
-}
-
-.container10_box_1:hover {
-    transform: scale(1.1, 1.1);
-}
 .container_form{
     height: 800px;
     width: 1250px;
@@ -802,7 +563,7 @@ input, select, textarea {
 .container11 {
     height: 600px;
     width: 1250px;
-    background-image: url(techno_ritesh7.jpg);
+    background-image: url(gdsc_1.jpg);
     background-size: cover;
     color: rgb(225, 215, 198);
     font-family: sans-serif;
