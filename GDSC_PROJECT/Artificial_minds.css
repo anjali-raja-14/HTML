@@ -73,18 +73,9 @@ html{
     }
 
 }
-
-
-
-
-
 a:hover {
    color:yellow;
 }
-
-
-
-
 
 a {
     justify-content: space-evenly;
@@ -504,61 +495,82 @@ a {
     color: white;
     font-family: sans-serif;
 }
-
-.container_form{
-    height: 800px;
+.container-form{
+    height: 1100px;
     width: 1250px;
-    border-top: 20px solid#1082c5;
-    font-family: sans-serif;
     
-    background-image: url(https://wallpapers.com/images/hd/foggy-road-in-the-greenery-14nynhc1vprvdtz4.jpg);
-    background-size: cover;
-    background-position: center;
-            background-repeat: no-repeat;
-            background-color: black;
+    border-top: 20px solid#1082c5;
+   
+    font-family: sans-serif;
+    background-color: black;
     
 }
+.form-container{
+   text-align: center;
+}
 .form-container {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 500px;
-    margin: 50px auto;
-    color:white;
-
-    .form_button {
-        background-color: #007bff;
-        color: white;
-        padding: 10px;
-        border: none;
-        width: 60%;
-        border-radius: 4px;
-        cursor: pointer;
-        left:auto;
-        text-align: center;
-       
-    }
-    button:hover {
-        background-color: #0056b3;
-    }
+   
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    
+}
+.form-container h2 {
+    color:black;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
     
 }
 .form-group {
     margin-bottom: 15px;
+    text-align: left;
+    
 }
 label {
+    color: #ffffff;
     display: block;
-    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
 }
 input, select, textarea {
     width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+   
+    
 }
+input::placeholder, textarea::placeholder {
+    color: #ddd;
 
+}
+select {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+button:hover {
+    background: #0056b3;
+}
 
 .container11 {
     height: 600px;
@@ -842,7 +854,7 @@ input, select, textarea {
 }
 
 .container14 {
-    height: 300px;
+    height: 600px;
     width: 1250px;
     color: bisque;
     font-family: sans-serif;
