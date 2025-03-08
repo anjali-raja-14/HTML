@@ -108,7 +108,7 @@ a {
 }
 
 .main2 {
-    font-size: 25px;
+    font-size: 30px;
     color: #FEF9CD;
     position: absolute;
     left: 200px;
@@ -244,7 +244,7 @@ a {
 }
 
 .box2 {
-    font-size: 10px;
+    font-size: 40px;
     width: 600px;
     top: 90px;
     padding-top: 20px;
@@ -257,10 +257,11 @@ a {
 .box3 {
     display: flex;
     width: 600px;
-    font-size: 15px;
+    font-size:20px;
     padding-top: 20px;
     justify-content: space-between;
-    color:#FEF9CD;
+    color:rgb(37, 221, 37);
+
 }
 
 .box4 {
