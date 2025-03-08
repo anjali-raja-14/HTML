@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
 }
@@ -95,17 +96,19 @@ a {
 
 
 
-.main1 {
+ .main1 {
     font-size: 60px;
-    color:#016d12;
+    color: #00a859; /* Vibrant Green for health */
     font-weight: bolder;
     position: absolute;
     left: 240px;
     top: 160px;
-    font-family: sans-serif;
-
-
-}
+    font-family: 'Poppins', sans-serif; /* More modern & readable */
+    text-shadow: 3px 3px 5px rgba(0, 128, 0, 0.4); /* Soft green shadow */
+    background: linear-gradient(45deg, #00a859, #00d4ff); /* Gradient effect */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
 
 .main2 {
     font-size: 30px;
@@ -114,11 +117,7 @@ a {
     left: 200px;
     top: 320px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-
-
 }
-
-
 .main3 {
     font-size: 15px;
     height: 30px;
@@ -159,12 +158,13 @@ a {
 .button-custom:active {
     transform: scale(0.98);
 }
-#container2 {
+#container2 
+{
     height: 800px;
     width: 1250px;
     background-color: black;
     border-top: 20px solid#1082c5;
-    /* color: white; */
+
     font-family: sans-serif;
 }
 
@@ -253,7 +253,6 @@ a {
 }
 
 .box5 {
-
     font-size: 15px;
     height: 40px;
     width: 150px;
@@ -264,14 +263,11 @@ a {
     align-content: center;
     padding-left: 30px;
     margin-top: 20px;
-
 }
-
 .box_line {
     width: 600px;
     border-top: 1px solid white;
 }
-
 .box6 {
     height: 320px;
     width: 475px;
@@ -282,9 +278,6 @@ a {
     top: 10px;
     padding-top: 25px;
 }
-
-
-
 .container3 {
 
     height: 700px;
@@ -304,8 +297,6 @@ a {
     left: 120px;
     background-image: url(https://remedyhealthhomecare.com/wp-content/uploads/2020/09/Remedy-Health-01-1536x1019.png);
     background-size: cover;
-    
-  
 }
 .body{
     font-family: sans-serif;
@@ -319,32 +310,20 @@ a {
     top: 1460px;
     color: wheat;
     font-family: sans-serif;
-
 }
-
-
 .animate_box_a {
     color:#016d12;
-    
     font-size: 70px;
     text-align: center;
     padding-top: 1px;
     font-weight: 700;
     text-transform:uppercase;
 }
-
-
-
 .animate_box_c {
-    /* color: rgb(225, 215, 198);
-    font-size: 20px; */
     text-align: start;
     font-family:  sans-serif;
     position: relative;
     top: 50px;
-    /* line-height: 50px;
-    font-weight: 200; */
-
     font-size: 25px;
     color: #FEF9CD;
     position: absolute;
@@ -661,18 +640,7 @@ a {
 }
 
 button {
-    /* display: block;
-    padding-right: 70px;
-    padding-left: 70px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color:#1081c4;
-    color: whitesmoke;
-    border-radius: 40px;
-    position: relative;
-    left: 500px;
-    top: 70px; */
-
+   
     background: linear-gradient(45deg, #006c11, #1081c4);
     border: none;
     padding: 12px 24px;
@@ -791,14 +759,11 @@ button:hover {
 }
 .form-container {
     font-family: Arial, sans-serif;
-    /* background: #1082c5; */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     width: 500px;
     margin: 50px auto;
-    /* color:#006c11;
-    background-color: black; */
     color:white;
 
     .form_button {
@@ -1192,4 +1157,6 @@ input, select, textarea {
 .arrow_circle:hover {
     background-color: #ffffff;
 
-}
+} 
+
+
