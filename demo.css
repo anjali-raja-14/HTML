@@ -33,7 +33,7 @@ html{
 .container1 {
     height: 550px;
     width: 1250px;
-    background-color:black;
+    background-image: url(technoque_img.jpg);
     background-size: cover;
     animation-name: animate;
     animation-duration: 15s;
@@ -56,11 +56,11 @@ html{
     background-color: black;
     font-size: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     position: fixed;
 
     div {
-        padding-left: 80px;
+        padding-left: 15px;
         align-content: center;
 
     }
@@ -73,17 +73,29 @@ html{
 
 }
 
+.logo {
+
+    position: fixed;
+    left: 0px;
+    padding-right: 80px;
+    padding-left: 0px;
 
 
-
-
-a:hover {
-   color:#016d12;
 }
 
 
 
 
+a:hover {
+    color: #17a2b8;
+}
+
+
+
+.logo {
+    position: relative;
+    left: 20px;
+}
 
 a {
     justify-content: space-evenly;
@@ -97,22 +109,22 @@ a {
 
 .main1 {
     font-size: 60px;
-    color:#016d12;
+    color: aliceblue;
     font-weight: bolder;
     position: absolute;
-    left: 240px;
-    top: 160px;
+    left: 350px;
+    top: 250px;
     font-family: sans-serif;
 
 
 }
 
 .main2 {
-    font-size: 25px;
-    color: #FEF9CD;
+    font-size: 20px;
+    color: aliceblue;
     position: absolute;
-    left: 200px;
-    top: 320px;
+    left: 500px;
+    top: 390px;
     font-family: sans-serif;
 
 
@@ -120,78 +132,36 @@ a {
 
 
 .main3 {
-    font-size: 15px;
+    font-size: 10px;
     height: 30px;
-    width: 130px;
-    background-color:#016d12;
-    COLOR: rgb(187, 255, 0);
+    width: 200px;
+    background-color: #69bdd2;
+    COLOR: WHITE;
     font-weight: bolder;
     font-family: sans-serif;
     position: absolute;
-    left: 460px;
-    top: 450px;
-    border-radius: 10px;
+    left: 500px;
+    top: 470px;
+    border-radius: 40px;
     border:border-box;
       padding-top: 15px;
       padding-left: 30px;
-      padding-right: 30px; 
+      padding-right: 30px;
+      
 }
-
-.button-custom {
-    background: linear-gradient(45deg, #006c11, #1081c4);
-    border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    
-
-
-    /* button {
-        display: block;
-        padding-right: 100px;
-        padding-left: 100px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        background-color:#1081c4;
-        color: whitesmoke;
-        border-radius: 40px;
-        position: relative;
-        left: 680px;
-        top: 150px;
-        font-size: 20px;
-        font-weight: bold;
-        top:-100px;
-    } */
-}
-
-.button-custom:hover {
-    background: linear-gradient(45deg, #016d12, #0d75b8);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
-}
-
-.button-custom:active {
-    transform: scale(0.98);
-}
-
 
 
 #container2 {
     height: 800px;
     width: 1250px;
     background-color: black;
-    border-top: 20px solid#1082c5;
-    /* color: white; */
+    border-top: 20px solid #69bdd2;
+    color: white;
     font-family: sans-serif;
 }
 
 .container2_a {
-    color:#016d12;
+    color: #69bdd2;
     ;
     font-size: 70px;
     text-align: center;
@@ -205,8 +175,6 @@ a {
     position: relative;
     left: 560px;
     top: 10px;
-    color: #FEF9CD;
-   
 }
 
 .line {
@@ -216,7 +184,7 @@ a {
 
     #line1 {
         width: 500px;
-        border-top: 1px solid #FEF9CD;
+        border-top: 1px solid white;
         position: relative;
        
         top: 30px;
@@ -233,14 +201,13 @@ a {
 
     position: relative;
     left: 100px;
-   
+
 }
 
 .box1 {
     font-weight: bolder;
     width: 600px;
     padding-bottom: 40px;
-    color:#FEF9CD;
 }
 
 .box2 {
@@ -250,8 +217,8 @@ a {
     padding-top: 20px;
     font-size: 15px;
     line-height: 30px;
-    font-family:  sans-serif;
-    color:#FEF9CD;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .box3 {
@@ -260,7 +227,7 @@ a {
     font-size: 15px;
     padding-top: 20px;
     justify-content: space-between;
-    color:#FEF9CD;
+
 }
 
 .box4 {
@@ -270,7 +237,7 @@ a {
     font-size: 15px;
     line-height: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:#FEF9CD;
+
 }
 
 .box5 {
@@ -279,7 +246,7 @@ a {
     height: 40px;
     width: 150px;
     font-weight: bolder;
-    background-color:#1081c4;
+    background-color: #69bdd2;
     font-family: sans-serif;
     border-radius: 20px;
     align-content: center;
@@ -296,7 +263,7 @@ a {
 .box6 {
     height: 320px;
     width: 475px;
-    border: 2px solid#1082c5;
+    border: 2px solid #69bdd2;
     border-radius: 4px;
     position: absolute;
     left: 650px;
@@ -308,71 +275,64 @@ a {
 
 .container3 {
 
-    height: 700px;
+    height: 800px;
     width: 1250px;
     background-color: black;
-    border-top: 20px solid#1082c5;
+    border-top: 20px solid #69bdd2;
     color: white;
     font-family: sans-serif;
 
 }
 
 .img_animate {
-    height: 600px;
-    width: 900px;
+    height: 450px;
+    width: 420px;
+    border-radius: 50%;
+    border: 8px solid #69bdd2;
     position: relative;
     top: 80px;
-    left: 120px;
-    background-image: url(https://remedyhealthhomecare.com/wp-content/uploads/2020/09/Remedy-Health-01-1536x1019.png);
+    left: 100px;
+    background-image: url(techno_ritesh2.gif);
     background-size: cover;
-    
-  
 }
-.body{
-    font-family: sans-serif;
-}
+
 .animate_box {
     height: 600px;
     width: 600px;
     border-radius: 4px;
     position: absolute;
-    left: 700px;
+    left: 600px;
     top: 1460px;
     color: wheat;
     font-family: sans-serif;
 
 }
 
-
 .animate_box_a {
-    color:#016d12;
-    
-    font-size: 70px;
-    text-align: center;
-    padding-top: 1px;
-    font-weight: 700;
-    text-transform:uppercase;
+    color: white;
+    font-size: 45px;
+    text-align: start;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
-
+.animate_box_b {
+    color: #69bdd2;
+    font-size: 30px;
+    text-align: start;
+    text-transform: uppercase;
+    position: relative;
+    top: 15px;
+}
 
 .animate_box_c {
-    /* color: rgb(225, 215, 198);
-    font-size: 20px; */
+    color: rgb(225, 215, 198);
+    font-size: 12px;
     text-align: start;
-    font-family:  sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
-    top: 50px;
-    /* line-height: 50px;
-    font-weight: 200; */
-
-    font-size: 25px;
-    color: #FEF9CD;
-    position: absolute;
-    left: 100px;
-    top: 100px;
-    font-family: sans-serif;
-    line-height: 50px;
+    top: 65px;
+    line-height: 25px;
 }
 
 .animate_box_d {
@@ -392,7 +352,7 @@ a {
     height: 250px;
     width: 100px;
     position: relative;
-    border-left: 5px solid#1082c5;
+    border-left: 5px solid #69bdd2;
     position: relative;
     top: 90px;
     left: 0px;
@@ -404,7 +364,7 @@ a {
     height: 1300px;
     width: 1250px;
     background-color: black;
-    border-top: 20px solid#1082c5;
+    border-top: 20px solid #69bdd2;
     color: white;
     font-family: sans-serif;
 
@@ -413,7 +373,7 @@ a {
 }
 
 .container4_a {
-    color:  #016d12;
+    color: #69bdd2;
     ;
     text-transform: uppercase;
     font-size: 60px;
@@ -475,14 +435,13 @@ a {
 }
 
 .flip_box1:hover {
-    background-color: #4a5a5e;
+    background-color: #25292a;
     border-radius: 20px;
 }
 
 .flip_box_a {
     font-weight: bolder;
     font-size: 20px;
-    color:#ffea00;
 }
 
 
@@ -595,13 +554,13 @@ a {
     height: 1100px;
     width: 1250px;
     background-color: black;
-    border-top: 20px solid#1082c5;
+    border-top: 20px solid #69bdd2;
     color: white;
     font-family: sans-serif;
 }
 
 .container6_a {
-    color:#1081c4;
+    color: #69bdd2;
     ;
     text-transform: uppercase;
     font-size: 60px;
@@ -659,7 +618,7 @@ a {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bolder;
-    color:#1081c4;
+    color: #69bdd2;
     line-height: 20px;
     padding-top: 10px;
 
@@ -688,7 +647,7 @@ a {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bolder;
-    color:#1081c4;
+    color: #69bdd2;
     line-height: 20px;
     padding-top: 10px;
 
@@ -716,7 +675,7 @@ a {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bolder;
-    color:#1081c4;
+    color: #69bdd2;
     line-height: 20px;
     padding-top: 10px;
 
@@ -744,7 +703,7 @@ a {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bolder;
-    color:#1081c4;
+    color: #69bdd2;
     line-height: 20px;
     padding-top: 10px;
 
@@ -772,7 +731,7 @@ a {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bolder;
-    color:#1081c4;
+    color: #69bdd2;
     line-height: 20px;
     padding-top: 10px;
 
@@ -798,7 +757,7 @@ a {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bolder;
-    color:#1081c4;
+    color: #69bdd2;
     line-height: 20px;
     padding-top: 10px;
 
@@ -822,7 +781,7 @@ a {
 }
 
 .container7_a {
-    color:#1081c4;
+    color: #69bdd2;
     ;
     text-transform: uppercase;
     font-size: 80px;
@@ -883,7 +842,7 @@ a {
 }
 
 .container7c_1_a {
-    color:#1081c4;
+    color: #69bdd2;
     font-size: 50px;
     text-align: center;
     font-weight: 1000;
@@ -900,7 +859,7 @@ a {
 }
 
 .container7c_2_a {
-    color:#1081c4;
+    color: #69bdd2;
     font-size: 50px;
     text-align: center;
     font-weight: 1000;
@@ -915,7 +874,7 @@ a {
 }
 
 .container7c_3_a {
-    color:#1081c4;
+    color: #69bdd2;
     font-size: 50px;
     text-align: center;
     font-weight: 1000;
@@ -930,7 +889,7 @@ a {
 }
 
 .container7c_4_a {
-    color:#1081c4;
+    color: #69bdd2;
     font-size: 50px;
     text-align: center;
     font-weight: 1000;
@@ -948,13 +907,13 @@ a {
     height: 800px;
     width: 1250px;
     background-color: black;
-    border-top: 20px solid#1082c5;
+    border-top: 20px solid #69bdd2;
     color: white;
     font-family: sans-serif;
 }
 
 .container8_a {
-    color:#016d12;
+    color: #69bdd2;
     ;
     text-transform: uppercase;
     font-size: 60px;
@@ -1031,7 +990,7 @@ a {
     background-color: rgb(15, 14, 14);
     text-transform: uppercase;
     font-weight: 700;
-    color:rgb(225, 215, 198);
+    color: #69bdd2;
 
 
 }
@@ -1050,7 +1009,7 @@ a {
 .container8_box_1_a1 {
     height: 120px;
     width: 250px;
-    border-top: 5px solid#1082c5;
+    border-top: 5px solid #69bdd2;
 
 }
 
@@ -1064,7 +1023,7 @@ a {
 }
 
 .container9_a {
-    color:#1081c4;
+    color: #69bdd2;
     ;
     text-transform: uppercase;
     font-size: 70px;
@@ -1121,7 +1080,7 @@ a {
     ;
 
     input:hover {
-        background-color:#1081c4;
+        background-color: #69bdd2;
 
         color: aliceblue;
     }
@@ -1135,30 +1094,17 @@ a {
 }
 
 button {
-    /* display: block;
+    display: block;
     padding-right: 70px;
     padding-left: 70px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color:#1081c4;
+    background-color: #69bdd2;
     color: whitesmoke;
     border-radius: 40px;
     position: relative;
     left: 500px;
-    top: 70px; */
-
-    background: linear-gradient(45deg, #006c11, #1081c4);
-    border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    top:-100px;
+    top: 70px;
 
 }
 
@@ -1171,13 +1117,13 @@ button:hover {
     height: 1100px;
     width: 1250px;
     background-color: black;
-    border-top: 20px solid#1082c5;
+    border-top: 20px solid #69bdd2;
     color: white;
     font-family: sans-serif;
 }
 
 .container10_a {
-    color:#1081c4;
+    color: #69bdd2;
     ;
     text-transform: uppercase;
     font-size: 60px;
@@ -1237,7 +1183,7 @@ button:hover {
 }
 
 .container10_box_1_a:hover {
-    color:#1081c4;
+    color: #69bdd2;
 }
 
 .container10_box_1_b {
@@ -1249,62 +1195,6 @@ button:hover {
 
 .container10_box_1:hover {
     transform: scale(1.1, 1.1);
-}
-.container_form{
-    height: 800px;
-    width: 1250px;
-    border-top: 20px solid#1082c5;
-    font-family: sans-serif;
-    
-    background-image: url(https://wallpapers.com/images/hd/foggy-road-in-the-greenery-14nynhc1vprvdtz4.jpg);
-    background-size: cover;
-    background-position: center;
-            background-repeat: no-repeat;
-            background-color: black;
-    
-}
-.form-container {
-    font-family: Arial, sans-serif;
-    /* background: #1082c5; */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 500px;
-    margin: 50px auto;
-    /* color:#006c11;
-    background-color: black; */
-    color:white;
-
-    .form_button {
-        background-color: #007bff;
-        color: white;
-        padding: 10px;
-        border: none;
-        width: 60%;
-        border-radius: 4px;
-        cursor: pointer;
-        left:auto;
-        text-align: center;
-       
-    }
-    button:hover {
-        background-color: #0056b3;
-    }
-    
-}
-.form-group {
-    margin-bottom: 15px;
-}
-label {
-    display: block;
-    font-weight: bold;
-}
-input, select, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
 }
 
 
@@ -1319,7 +1209,7 @@ input, select, textarea {
 }
 
 .container11_a {
-    color:green;
+    color: #69bdd2;
     ;
     text-transform: uppercase;
     font-size: 60px;
@@ -1362,7 +1252,7 @@ input, select, textarea {
     height: 800px;
     width: 1250px;
     background-color: black;
-    border-top: 20px solid#1082c5;
+    border-top: 20px solid #69bdd2;
     color: white;
     font-family: sans-serif;
 
@@ -1375,7 +1265,7 @@ input, select, textarea {
         width: 500px;
         background-color: white;
         border-radius: 10px;
-        border: 10px solid#1082c5;
+        border: 10px solid #69bdd2;
     }
 
     ;
@@ -1388,7 +1278,7 @@ input, select, textarea {
 
 
 .container12_a {
-    color:#1081c4;
+    color: #69bdd2;
     ;
     text-transform: uppercase;
     font-size: 60px;
@@ -1500,12 +1390,12 @@ input, select, textarea {
     background-color: black;
     color: white;
     font-family: sans-serif;
-    background-image: url("https://i.pinimg.com/originals/d2/5f/16/d25f1660d6909a7c82f3eb182573c36b.jpg");
+    background-image: url(techno_ritesh10.jpg);
     background-size: cover;
 }
 
 .container13_a {
-    color:green;
+    color: #69bdd2;
     font-size: 60px;
     text-align: center;
     padding-top: 70px;
@@ -1539,15 +1429,13 @@ input, select, textarea {
         border-radius: 20px;
         border: 5px solid #5fb6cb;
         margin-right: 20px;
-        max-width: fit-content;
     }
 
-    
+    ;
 
     input:hover {
-        background-color:#1081c4;
+        background-color: #69bdd2;
         color: beige;
-        max-width: fit-content;
     }
 
 }
@@ -1574,7 +1462,7 @@ input, select, textarea {
         padding-left: 100px;
         padding-top: 20px;
         padding-bottom: 20px;
-        background-color:#1081c4;
+        background-color: #69bdd2;
         color: whitesmoke;
         border-radius: 40px;
         position: relative;
@@ -1603,7 +1491,6 @@ input, select, textarea {
     font-weight: bold;
     padding-top: 100px;
     text-align: center;
-    color:green;
 
 
 }
@@ -1645,20 +1532,20 @@ input, select, textarea {
 }
 
 .arrow_circle {
-    color:#1081c4;
+    color: #69bdd2;
     position: fixed;
     right: 20px;
     bottom: 60px;
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    border: 2px solid#1082c5;
+    border: 2px solid #69bdd2;
 
     a {
         position: relative;
         left: 7px;
         text-decoration: none;
-        color:#1081c4;
+        color: #69bdd2;
         font-size: 25px;
     }
 }
